@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.env
+.venv
+venv/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data files
+*.csv
+!example_data_dummy.csv
+*.xlsx
+*.xls
+*.json
+*.jsonl
+*.txt
+*.log
+
+# Outputs and results
+outputs/
+results/
+figures/
+plots/
+gee_results_all_interactions/
+mmse_stability_analysis/
+
+# Model files
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+
+# Generated figures
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.svg
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
