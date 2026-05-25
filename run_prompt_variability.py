@@ -29,16 +29,10 @@ class Config:
 
     model_id: str = "mistralai/Mistral-7B-Instruct-v0.3" ## add here path to real mistral model files
 
-    # Pick one (same style as your script)
-    # test by default:
-    # csv_path: str = "test_transcriptions_with_labels.csv"
-    # id_col: str = "file_id"
-    # out_csv: str = "mistral_prompt_variability_test_long.csv"
-
-    # alternative train:
-    csv_path: str = "transcriptions_with_mmse.csv"
+    # Demonstration input. Replace with the authorised ADReSS/DementiaBank CSV for full reproduction.
+    csv_path: str = "example_data_dummy.csv"
     id_col: str = "ID"
-    out_csv: str = "mistral_prompt_variability_train_long.csv"
+    out_csv: str = "demo_prompt_variability_long.csv"
 
     max_context_tokens: int = 32768
     target_max_new_tokens: int = 900
